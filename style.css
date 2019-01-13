@@ -1,0 +1,410 @@
+nav, header, footer, body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: lightcyan;
+    text-align: left;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+label {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 20px;
+}
+
+.box p {
+    
+    font-size: 20px;
+}
+
+article p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+    
+}
+
+h1.large {
+    font-size: 60px;
+    text-align: left;
+    color: ghostwhite;
+    margin: 0px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+h1.section2Header {
+    font-size: 60px;
+    text-align: center;
+}
+
+
+
+
+input[type="text"]{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    
+}
+
+form h2 {
+    color: white;
+}
+
+button {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*################# CUSTOM STYLES ############ */
+
+#section-1-gradient {
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+div.box {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+        0 2px 3px 0 rgba(0,0,0,.1);
+    text-align: center;
+    margin: 15px;
+    padding: 36px 24px 40px 24px;
+    background-color: 
+    border-radius: 7px;
+}
+
+div.slopeIcon {
+    margin: 10px;
+}
+
+div.slopeIcon img {
+    display: block;
+    width: 200px;
+    margin: auto;
+    box-shadow: -2px -2px 5px 2px /* horizontal, vertical, blur, spread */
+    rgba(0,0,250), /* Sh BG BX Opacity */
+    2px 2px 4px 2px rgba(0,0,250);
+    
+}
+
+div.icon {
+    width: 100%;
+    margin: 0px;
+}
+
+
+
+div.leftSide-col {
+    margin-left: 30%;
+}
+
+div.rightSide-col {
+    margin-left: 15%;
+}
+
+
+/*############# NAVBAR ##############*/
+
+nav {
+    list-style-type: none;
+    width: 100%
+    margin: 0px;
+}
+
+nav ul {
+    background-color: darkblue;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+ul.topnav li a:hover {
+    background-color: orange;
+    color: green;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+button {
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 12px;
+    border: none;
+    font-size: 2;
+    padding: 20px;
+}
+
+button.learnMore {
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+
+footer.footsy {
+    background-color: #666;
+    padding-left: 10%;
+    padding-right: 5%
+}
+
+footer.footsy h1 {
+    color: white;
+    font-size: 30px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+}
+
+footer.footsy ul li {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5
+}
+
+
+.formatting {
+    font-size: 25px;
+    line-height: 2em;
+    color: black;
+}
+
+.headertext {
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: bold;
+    font-family: monospace;
+    font-size: 50px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 20px;
+}
+h2 {
+    color: black;
+    font-family: monospace;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+.heading {
+    background-image: url("images/images.jpg");
+    width: 100%;
+    box-shadow: 3px 5px 3px;
+    padding: 28px;
+    margin: 0px;
+    animation-play-state: running;
+    animation-direction: normal;
+}
+
+.introbox {
+    text-align: left;
+    padding: 20px;
+    border: solid;
+    margin: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+
+#circle {
+    color: darkred;
+    font-size: 40px;
+}
+
+
+.introbox h2 {
+    text-align: center;
+}
+.introbox ul li {
+    line-height: 2;
+    text-align: center;
+}
+
+
+.introbox ul {
+    list-style: none;
+    padding: 10px;
+}
+
+
+
+.borderImg {
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+
+
+/*################ MOBILE STYLES ################## */
+@media screen and (max-width: 1000px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+
+    
+    ul.topnav.responsive {
+        position: relative;
+    }
+    
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    
+    article p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .col-6 {
+        margin: 0;
+        width: 100%
+    }
+    
+    .col-4 {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .col-7 {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .col-5 {
+        margin: 0;
+        width: 100%;
+    }
+
+    div.mobile {
+        width: 50%;
+        display: block;
+    }
+    
+    div.leftSide-col,
+    div.rightSide-col {
+        margin: 15px;
+    }
+    
+    input[type="text"] {
+        width: 300px;
+    }
+    
+    .video-container iframe{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    .heading {
+        padding: 0px;
+        font-size: 20px;
+    }
+    
+    .headertext {
+        text-align: center;
+    }
+    
+}
+
+/* EVERYTHING ELSE */
+
+
+

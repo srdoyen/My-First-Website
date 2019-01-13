@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scott Doyen</title>
+        <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor="#E6E6FA"> 
+        <div class="heading">
+            <div class="headertext"><b>Scott's Portfolio</b></div>
+        </div>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="file:///C:/Users/sdoyen/Documents/Misc/brackets/index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#about">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === "topnav") {
+                    x.className += " responsive";
+                    /* change topnav top topnav.responsive */
+                }
+                else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        
+        
+        
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class = "introbox">
+                        <article>
+                            <h2>Industry Experience</h2>
+                            <ul>
+                                <li>Intel: Product Development Engineer</li>
+                                <li>Micron: Product Engineer</li>
+                                <li>PPMC: Website Developer</li> 
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class = "introbox">
+                        <article>
+                            <h2>Software Development</h2>
+                            <ul>
+                                <li>Languages: C, C++, Python, Java</li>
+                                <li>Front End: HTML, CSS</li>
+                                <li>Back End: Javascript</li>  
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <hr>
+        <div class="container" id="section-1-gradient">
+            <div class="row">
+                <div class="col-6">
+                    <form>
+                        <div class ="leftSide-col"> 
+                            <h2>Name:</h2>
+                            <input class="inputbox" name="Name" type="text" placeholder="Name">
+                            <h2>Email:</h2>
+                            <input class="inputbox" name="Email" type="text" placeholder="Email">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <div class="rightSide-col">
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vwyeYiw7gwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <header>
+            <h1 class="section2Header">The Standards of Awesomeness</h1>
+        </header>
+        <div class= "container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="images/fox.jpg">
+                        </div>
+                        <label>Chat with Me</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="images/dino.jpg">
+                        </div>
+                        <label>Learn to code</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="images/arrow.png">
+                        </div>
+                        <label>Build an Empire</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <button class="learnMore">Learn More</button>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <article>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <div class="slopeIcon">
+                        <img src="images/smiles.PNG">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobile">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+             <div class="col-3 mobile">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+             <div class="col-3 mobile">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+             <div class="col-3 mobile">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+        </div>    
+    </footer>
+    </body>
+</html>
